@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #0c0c0c;
+    color: #efefef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.minimal-container {
+    max-width: 600px;
+    padding: 3rem;
+    border: 1px solid #333;
+    background: #111;
+}
+
+.logo-main {
+    max-width: 250px;
+    margin-bottom: 1rem;
+    filter: brightness(0) invert(1);
+}
+
+.tagline {
+    font-weight: 300;
+    font-style: italic;
+    opacity: 0.6;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+}
+
+.portrait {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #d4af37;
+    margin-bottom: 2rem;
+    object-fit: cover;
+}
+
+.hero-quote {
+    font-size: 1.6rem;
+    margin-bottom: 4rem;
+    line-height: 1.3;
+    font-weight: 700;
+    color: #d4af37;
+}
+
+.link-section {
+    margin-bottom: 2rem;
+}
+
+.main-link {
+    display: inline-block;
+    padding: 1.2rem 3rem;
+    background-color: #d4af37;
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border: 1px solid #d4af37;
+}
+
+.main-link:hover {
+    background-color: transparent;
+    color: #d4af37;
+    transform: scale(1.05);
+}
+
+footer {
+    margin-top: 4rem;
+    font-size: 0.75rem;
+    opacity: 0.4;
+    text-transform: uppercase;
+}
